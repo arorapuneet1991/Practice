@@ -1,0 +1,19 @@
+all design patterns
+javascriptexecutor
+getwindowhandels
+example cucumber multi data
+inner join vs left join
+unix
+appium
+
+cookies
+path param query param
+test estimation
+
+
+method reference
+stream and lambda
+spring framework
+why cant modify while iterating
+
+predicate, consumer, collect
