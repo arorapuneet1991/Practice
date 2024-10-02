@@ -1,0 +1,16 @@
+Used to create complex objects where multiple attributes are skipped in some instances and
+in some we need some other attributes
+
+eliminiates heavy contrucotr calls
+also eliminiates the modifications needed with evey new attribute being introduced
+
+gives better contorl to the user to
+we separate the object construction (done via constructor) and the class representation
+(the state values of the variables of that particular object) in the builder pattern.
+
+This is done by taking the control of value initialization from constructor inline code to the
+builder
+
+https://www.youtube.com/watch?v=sZYfZrA-gA0
+
+might not be required at all if java allowed named params liek python
