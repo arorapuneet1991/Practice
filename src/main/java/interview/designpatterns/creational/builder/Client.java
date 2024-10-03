@@ -1,11 +1,14 @@
 package interview.designpatterns.creational.builder;
 
+import java.util.logging.Logger;
+
 public class Client {
     public static void main(String[] args) {
-        House house=House.builder().setKitchen("Island").build();
+        Logger logger = Logger.getLogger(Client.class.getName());
+        House house = House.builder().setKitchen("Island").build();
 
-        System.out.println(house.getKitchen());
-        System.out.println(house.getRooms());
+        logger.info(house.getKitchen());
+        logger.info(house.getWalls()+"");
 
     }
 }
