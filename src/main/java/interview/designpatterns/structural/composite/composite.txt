@@ -1,0 +1,2 @@
+only appplies when leaf and node both can be treated equally
+only appplies to tree like hierarchies

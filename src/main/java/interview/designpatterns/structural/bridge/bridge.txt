@@ -1,1 +1,3 @@
 https://refactoring.guru/design-patterns/bridge
+
+it implements interface segregation principle
